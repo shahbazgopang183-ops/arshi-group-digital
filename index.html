@@ -1,0 +1,1888 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arshi Group — Digital Solutions, Web Development &amp; AI</title>
+  <meta name="description" content="Arshi Group is a Digital solutions, web development, AI, automation, and SEO services. Building premium, lightning-fast digital experiences with Next.js, React, Node.js, Laravel, and AI integrations. 273+ projects delivered.">
+  <meta name="keywords" content="Arshi Group, Arshi Group, Full Stack Developer, Web Developer, AI Expert, SEO Specialist, Next.js Developer, React Developer, Laravel Developer, Node.js, GSAP, Tailwind CSS, SaaS Development, AI Agents, Automation, Pakistan Developer, Freelance Developer, Portfolio, AG">
+  <meta name="author" content="Arshi Group - Arshi Group">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://arshi-group.netlify.app/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/arshi-group-logo.svg">
+  <link rel="apple-touch-icon" href="assets/arshi-group-logo.svg">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arshi-group.netlify.app/">
+  <meta property="og:title" content="Arshi Group — Full-Stack Developer, AI Expert &amp; SEO Specialist">
+  <meta property="og:description" content="Premium web development, AI integrations, and SEO optimization. 273+ projects delivered. Let's build something extraordinary together.">
+  <meta property="og:image" content="https://arshi-group.netlify.app/assets/arshi-group-logo.svg">
+  <meta property="og:site_name" content="Arshi Group">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@arshigroup">
+  <meta name="twitter:title" content="Arshi Group — Full-Stack Developer, AI Expert &amp; SEO Specialist">
+  <meta name="twitter:description" content="Premium web development, AI integrations, and SEO optimization. 273+ projects delivered.">
+  <meta name="twitter:image" content="https://arshi-group.netlify.app/assets/arshi-group-logo.svg">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#F14F26">
+  <meta name="msapplication-TileColor" content="#F14F26">
+
+  <!-- Tailwind CSS (CDN for static build) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/9lvmCSiTmFhL.js"></script>
+  <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/bBNA2ct45Jlb.js"></script>
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#F14F26',
+            'primary-dark': '#D8431E',
+            black: '#0E0E0E',
+            surface: '#F5F5F5',
+            border: '#ECECEC',
+            muted: '#6B6B6B'
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Poppins', 'sans-serif'],
+            accent: ['Instrument Serif', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/swiper%4010/swiper-bundle.min.css">
+  <script src="../cdn.jsdelivr.net/npm/swiper%4010/swiper-bundle.min.js"></script>
+
+  <!-- Structured Data / JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Arshi Group",
+    "alternateName": "Arshi Group",
+    "url": "https://arshi-group.netlify.app",
+    "image": "https://arshi-group.netlify.app/assets/arshi-group-logo.svg",
+    "jobTitle": "Digital Solutions & AI",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Arshi Group"
+    },
+    "sameAs": [
+      "https://www.tiktok.com/@arshi-group6",
+      "https://x.com/build_W_Hassan",
+      "https://whatsapp.com/channel/0029Vb6SZuM1t90YfEwX1a2V"
+    ],
+    "knowsAbout": ["Web Development", "AI", "SEO", "Next.js", "React", "Node.js", "Laravel", "GSAP"]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- SECTION 0: Global Navigation -->
+  <nav class="glass-nav">
+    <div class="nav-logo flex items-center">
+      <img src="assets/arshi-group-logo.svg" alt="AG Logo" class="h-10 w-auto rounded-md shadow-sm object-contain">
+    </div>
+
+    <!-- Desktop Links -->
+    <div class="nav-links">
+      <a href="#hero" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Projects</a>
+
+      <a href="#faq">FAQs</a>
+    </div>
+
+    <a href="#contact" class="nav-cta">Contact Me</a>
+
+    <!-- Hamburger -->
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="#hero">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Projects</a>
+
+    <a href="#faq">FAQs</a>
+    <a href="#contact" class="nav-cta mt-4">Contact Me</a>
+  </div>
+
+  <!-- SECTION 1: Hero -->
+  <section id="hero" class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-subtitle gs-reveal">— Hello, we're Arshi Group</div>
+        <h1 class="hero-title gs-reveal">I Build <span class="accent-text">Digital</span><br>Experiences</h1>
+        <p class="hero-desc gs-reveal">Digital solutions, web development, AI, automation, and SEO services. I create
+          pixel-perfect, premium websites that convert.</p>
+
+        <div class="hero-buttons gs-reveal gs-stagger-parent">
+          <a href="#contact" class="cta-button gs-stagger-child">
+            <span class="cta-label">Let's Talk</span>
+            <span class="cta-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </span>
+          </a>
+          <a href="#portfolio" class="ghost-button gs-stagger-child">
+            View Work
+          </a>
+        </div>
+
+        <div class="hero-stats gs-reveal gs-stagger-parent">
+          <div class="hero-stat gs-stagger-child">
+            <div class="stat-number"><span class="counter" data-target="273">0</span>+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="hero-stat gs-stagger-child">
+            <div class="stat-number"><span class="counter" data-target="25">0</span>+</div>
+            <div class="stat-label">Industry Covered</div>
+          </div>
+          <div class="hero-stat gs-stagger-child">
+            <div class="stat-number"><span class="counter" data-target="4">0</span>+</div>
+            <div class="stat-label">Years of Experience</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper gs-reveal">
+        <div class="hero-arch">
+          <img src="assets/images/hero.webp" alt="Arshi Group Portrait">
+        </div>
+
+        <!-- Floating Badges -->
+        <div class="float-badge top-left">
+          <div class="badge-icon orange"><i class="ph ph-rocket"></i></div>
+          <div class="badge-text">
+            <div class="badge-label">Total Projects</div>
+            <div class="badge-value">300+ Completed</div>
+          </div>
+        </div>
+
+        <div class="float-badge bottom-right">
+          <div class="badge-icon dark"><i class="ph ph-sparkle"></i></div>
+          <div class="badge-text">
+            <div class="badge-label">Certified</div>
+            <div class="badge-value">AI Developer</div>
+          </div>
+        </div>
+
+        <!-- Decor -->
+        <svg class="squiggle squiggle-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+          <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+        </svg>
+        <svg class="squiggle squiggle-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+          <path d="M3 12h18M12 3v18"></path>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: Infinite Skills Marquee Strip -->
+  <div class="marquee-section gs-reveal">
+    <div class="marquee-track">
+      <!-- Duplicate content to create infinite scroll effect without gaps -->
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-lightning"></i></div>
+        <div class="m-label">HTML5</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-palette"></i></div>
+        <div class="m-label">CSS3</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-laptop"></i></div>
+        <div class="m-label">JavaScript</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-waves"></i></div>
+        <div class="m-label">Tailwind CSS</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-atom"></i></div>
+        <div class="m-label">React</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-file-code"></i></div>
+        <div class="m-label">PHP</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-fire"></i></div>
+        <div class="m-label">Laravel</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-database"></i></div>
+        <div class="m-label">MySQL</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-circle"></i></div>
+        <div class="m-label">Node.js</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-rocket"></i></div>
+        <div class="m-label">Next.js</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-sparkle"></i></div>
+        <div class="m-label">GSAP</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-pen-nib"></i></div>
+        <div class="m-label">Figma</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-robot"></i></div>
+        <div class="m-label">AI/LLM</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-chart-line-up"></i></div>
+        <div class="m-label">SEO</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-code"></i></div>
+        <div class="m-label">Python</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-github-logo"></i></div>
+        <div class="m-label">GitHub</div>
+      </div>
+      <!-- Repeat -->
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-lightning"></i></div>
+        <div class="m-label">HTML5</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-palette"></i></div>
+        <div class="m-label">CSS3</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-laptop"></i></div>
+        <div class="m-label">JavaScript</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-waves"></i></div>
+        <div class="m-label">Tailwind CSS</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-atom"></i></div>
+        <div class="m-label">React</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-file-code"></i></div>
+        <div class="m-label">PHP</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-fire"></i></div>
+        <div class="m-label">Laravel</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-database"></i></div>
+        <div class="m-label">MySQL</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-circle"></i></div>
+        <div class="m-label">Node.js</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-rocket"></i></div>
+        <div class="m-label">Next.js</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-sparkle"></i></div>
+        <div class="m-label">GSAP</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-pen-nib"></i></div>
+        <div class="m-label">Figma</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-robot"></i></div>
+        <div class="m-label">AI/LLM</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-chart-line-up"></i></div>
+        <div class="m-label">SEO</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-code"></i></div>
+        <div class="m-label">Python</div>
+      </div>
+      <div class="marquee-item">
+        <div class="m-icon"><i class="ph ph-github-logo"></i></div>
+        <div class="m-label">GitHub</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 3: About Me -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      <div class="about-image-wrapper gs-reveal flex items-center justify-center">
+        <img src="assets/images/about.webp" alt="About Arshi Group" class="w-full max-w-sm">
+      </div>
+      <div class="about-content">
+        <span class="eyebrow gs-reveal">About Me</span>
+        <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">Who is <span class="accent-text">Arshi Group?</span><span class="sparkle-accent">✤</span></h2>
+        <p class="gs-reveal">I am a passionate Full-Stack Web Developer, AI Expert, SEO Specialist, and a
+          self-proclaimed Vibe Coder. Leveraging out-of-the-box thinking, I build premium, lightning-fast digital
+          experiences that are perfectly optimized for both users and search engines.</p>
+
+        <div class="about-stats gs-reveal gs-stagger-parent">
+          <div class="about-stat gs-stagger-child">
+            <div class="stat-num"><span class="counter" data-target="273">0</span>+</div>
+            <div class="stat-txt">Project Completed</div>
+          </div>
+          <div class="about-stat gs-stagger-child">
+            <div class="stat-num"><span class="counter" data-target="25">0</span>+</div>
+            <div class="stat-txt">Industry Covered</div>
+          </div>
+          <div class="about-stat gs-stagger-child">
+            <div class="stat-num"><span class="counter" data-target="4">0</span>+</div>
+            <div class="stat-txt">Years of Exp.</div>
+          </div>
+        </div>
+
+        <div class="about-contact-pills gs-reveal gs-stagger-parent">
+          <div class="contact-pill gs-stagger-child">
+            <div class="pill-icon"><i class="ph ph-phone"></i></div>
+            <div class="pill-text">+92 320 6209172</div>
+          </div>
+          <div class="contact-pill gs-stagger-child">
+            <div class="pill-icon"><i class="ph ph-envelope-simple"></i></div>
+            <div class="pill-text">arshi-group8@gmail.com</div>
+          </div>
+        </div>
+
+        <div class="social-icons gs-reveal gs-stagger-parent">
+          <a href="https://whatsapp.com/channel/0029Vb6SZuM1t90YfEwX1a2V" target="_blank" rel="noreferrer" class="social-icon gs-stagger-child" aria-label="WhatsApp"><i class="ph ph-whatsapp-logo"></i></a>
+          <a href="https://www.tiktok.com/@arshi-group6" target="_blank" rel="noreferrer" class="social-icon gs-stagger-child" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+          <a href="https://x.com/build_W_Hassan" target="_blank" rel="noreferrer" class="social-icon gs-stagger-child" aria-label="X (Twitter)"><i class="ph ph-x-logo"></i></a>
+          <a href="https://github.com/arshi-group-AG" target="_blank" rel="noreferrer" class="social-icon gs-stagger-child" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+          <a href="https://stackoverflow.com/users/33033261/build-with-Arshi Group" target="_blank" rel="noreferrer" class="social-icon gs-stagger-child" aria-label="Stack Overflow"><i class="ph ph-stack-overflow-logo"></i></a>
+        </div>
+
+        <div class="gs-reveal" style="margin-top: 20px;">
+          <a href="Mahar's CV.pdf" target="_blank" rel="noreferrer" class="inline-flex items-center gap-3 bg-black hover:bg-primary text-white px-7 py-3.5 rounded-full font-bold text-[15px] transition-all duration-300 shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 group">
+            <i class="ph ph-file-pdf text-xl"></i> Download Resume
+            <i class="ph ph-download-simple transition-transform group-hover:translate-y-0.5"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3.5: Contact Marquee (Duplicated) -->
+  <section class="py-3.5 bg-primary border-y border-white/20 overflow-hidden contact-ticker-container">
+    <div class="contact-ticker">
+      <!-- Original Set -->
+      <div class="flex items-center gap-10 md:gap-16 px-5 md:px-8">
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-briefcase text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">For
+            Project</span>
+          <a href="mailto:business.arshi-group@gmail.com" class="hover:text-black transition font-medium">business.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-handshake text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Paid
+            Collab / Promotion</span>
+          <a href="mailto:collab.arshi-group@gmail.com" class="hover:text-black transition font-medium">collab.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-question text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">For any
+            Help</span>
+          <a href="mailto:arshi-group8@gmail.com" class="hover:text-black transition font-medium">arshi-group8@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-users text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Team
+            Email</span>
+          <a href="mailto:team.arshi-group@gmail.com" class="hover:text-black transition font-medium">team.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-phone-call text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Work
+            Number</span>
+          <a href="https://wa.me/923206209172" target="_blank" class="hover:text-black transition font-medium">03206209172</a>
+        </div>
+      </div>
+
+      <!-- Duplicate Set for Seamless Loop -->
+      <div class="flex items-center gap-10 md:gap-16 px-5 md:px-8">
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-briefcase text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">For
+            Project</span>
+          <a href="mailto:business.arshi-group@gmail.com" class="hover:text-black transition font-medium">business.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-handshake text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Paid
+            Collab / Promotion</span>
+          <a href="mailto:collab.arshi-group@gmail.com" class="hover:text-black transition font-medium">collab.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-question text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">For any
+            Help</span>
+          <a href="mailto:arshi-group8@gmail.com" class="hover:text-black transition font-medium">arshi-group8@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-users text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Team
+            Email</span>
+          <a href="mailto:team.arshi-group@gmail.com" class="hover:text-black transition font-medium">team.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-phone-call text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Work
+            Number</span>
+          <a href="https://wa.me/923206209172" target="_blank" class="hover:text-black transition font-medium">03206209172</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: Tools -->
+  <section id="tools" class="tools-section">
+    <div class="container text-center mb-12">
+      <span class="eyebrow gs-reveal justify-center">My Favorite Tools</span>
+      <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">Tools That <span class="accent-text">Power My Work</span><span class="sparkle-accent">✤</span></h2>
+    </div>
+
+    <div class="container gs-reveal">
+      <div class="tools-grid gs-stagger-parent">
+        <!-- Tool Cards -->
+        <div class="tool-card gs-stagger-child">
+          <div class="tool-icon bg-[#F3F2F1]"><img src="assets/icons/images.png" alt="Claude AI" class="w-9 h-9 object-contain"></div>
+          <div class="tool-pct">98<span class="text-primary text-xl">%</span></div>
+          <div class="tool-name">Claude AI</div>
+        </div>
+        <div class="tool-card gs-stagger-child">
+          <div class="tool-icon bg-[#E8F5E9]"><img src="assets/icons/antigravity-icon.png" alt="Antigravity" class="w-9 h-9 object-contain"></div>
+          <div class="tool-pct">95<span class="text-primary text-xl">%</span></div>
+          <div class="tool-name">Antigravity</div>
+        </div>
+        <div class="tool-card gs-stagger-child">
+          <div class="tool-icon bg-[#E3F2FD]"><img src="assets/icons/cursor-ai.png" alt="Cursor" class="w-9 h-9 object-contain"></div>
+          <div class="tool-pct">92<span class="text-primary text-xl">%</span></div>
+          <div class="tool-name">Cursor</div>
+        </div>
+        <div class="tool-card gs-stagger-child">
+          <div class="tool-icon bg-[#FCE4EC]"><img src="assets/icons/github.png" alt="GitHub" class="w-9 h-9 object-contain"></div>
+          <div class="tool-pct">90<span class="text-primary text-xl">%</span></div>
+          <div class="tool-name">GitHub</div>
+        </div>
+        <div class="tool-card gs-stagger-child">
+          <div class="tool-icon bg-[#E8EAF6]"><img src="assets/icons/visual-studio-code.svg" alt="VS Code" class="w-9 h-9 object-contain"></div>
+          <div class="tool-pct">88<span class="text-primary text-xl">%</span></div>
+          <div class="tool-name">VS Code</div>
+        </div>
+        <div class="tool-card gs-stagger-child">
+          <div class="tool-icon bg-[#FDFEBA]"><img src="assets/icons/Figma-logo.svg" alt="Figma" class="w-9 h-9 object-contain"></div>
+          <div class="tool-pct">85<span class="text-primary text-xl">%</span></div>
+          <div class="tool-name">Figma</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 5: Timeline -->
+  <section id="resume" class="timeline-section">
+    <div class="container mb-12 text-center">
+      <span class="eyebrow gs-reveal justify-center">My Journey</span>
+      <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">Education &amp; <span class="accent-text">Experience</span><span class="sparkle-accent">✤</span></h2>
+    </div>
+    <div class="container max-w-4xl gs-reveal">
+      <div class="timeline gs-stagger-parent">
+        <div class="timeline-item gs-stagger-child">
+          <div class="timeline-card">
+            <div class="tl-year">2023 – Present</div>
+            <div class="tl-title">Senior Full Stack Web Developer</div>
+            <div class="tl-org">Arshi Group</div>
+            <div class="tl-desc">Leading digital projects, AI integrations, automation, and premium web experiences using
+              Next.js, Tailwind CSS, Node.js, and GSAP.</div>
+          </div>
+        </div>
+        <div class="timeline-item gs-stagger-child">
+          <div class="timeline-card">
+            <div class="tl-year">Education</div>
+            <div class="tl-title">SSC – Matric</div>
+            <div class="tl-org">Board of Secondary Education</div>
+            <div class="tl-desc">Completed secondary school certificate with distinction, establishing a strong academic
+              foundation.</div>
+          </div>
+        </div>
+        <div class="timeline-item gs-stagger-child">
+          <div class="timeline-card">
+            <div class="tl-year">Technical Education</div>
+            <div class="tl-title">D.I.T – Diploma in Information Technology</div>
+            <div class="tl-org">Technical Collage Bhakkar</div>
+            <div class="tl-desc">Completed a comprehensive Diploma in Information Technology covering programming,
+              networking, databases, and software development fundamentals.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5.5: Services -->
+  <section id="services" class="py-20 bg-white">
+    <div class="container">
+      <div class="mb-12 text-center">
+        <span class="eyebrow gs-reveal justify-center">What I Offer</span>
+        <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">My <span class="accent-text">Services</span><span class="sparkle-accent"><i class="ph ph-sparkle"></i></span></h2>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 gs-reveal gs-stagger-parent">
+        <div class="bg-surface rounded-[24px] p-6 flex flex-col gap-4 hover:-translate-y-1 transition-transform gs-stagger-child" style="min-height:280px;">
+          <div class="w-14 h-14 bg-primary text-white flex items-center justify-center rounded-2xl text-2xl flex-shrink-0 shadow-lg shadow-primary/30">
+            <i class="ph ph-code"></i>
+          </div>
+          <h3 class="font-heading font-bold text-[1.05rem] text-black leading-tight">Full Stack Dev</h3>
+          <p class="text-muted text-xs leading-relaxed flex-1">End-to-end web applications from pixel-perfect frontends
+            to scalable backends using Next.js, Node.js, and modern databases.</p>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20your%20Full%20Stack%20Dev%20service.%20Can%20we%20discuss%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-[#D8431E] transition self-start mt-auto">
+            <i class="ph ph-whatsapp-logo"></i> Interested?
+          </a>
+        </div>
+        <div class="bg-surface rounded-[24px] p-6 flex flex-col gap-4 hover:-translate-y-1 transition-transform gs-stagger-child" style="min-height:280px;">
+          <div class="w-14 h-14 bg-black text-white flex items-center justify-center rounded-2xl text-2xl flex-shrink-0 shadow-lg ">
+            <i class="ph ph-cloud"></i>
+          </div>
+          <h3 class="font-heading font-bold text-[1.05rem] text-black leading-tight">SaaS Development</h3>
+          <p class="text-muted text-xs leading-relaxed flex-1">Build &amp; launch powerful SaaS platforms with subscription
+            billing, user dashboards, and seamless API integrations.</p>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20your%20SaaS%20Development%20service.%20Can%20we%20discuss%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-[#D8431E] transition self-start mt-auto">
+            <i class="ph ph-whatsapp-logo"></i> Interested?
+          </a>
+        </div>
+        <div class="bg-surface rounded-[24px] p-6 flex flex-col gap-4 hover:-translate-y-1 transition-transform gs-stagger-child" style="min-height:280px;">
+          <div class="w-14 h-14 bg-primary text-white flex items-center justify-center rounded-2xl text-2xl flex-shrink-0 shadow-lg shadow-primary/30">
+            <i class="ph ph-robot"></i>
+          </div>
+          <h3 class="font-heading font-bold text-[1.05rem] text-black leading-tight">AI Agents &amp; Automation</h3>
+          <p class="text-muted text-xs leading-relaxed flex-1">Deploy smart AI agents, integrate LLMs, and automate
+            repetitive business workflows to supercharge your productivity.</p>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20your%20AI%20Agents%20%26%20Automation%20service.%20Can%20we%20discuss%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-[#D8431E] transition self-start mt-auto">
+            <i class="ph ph-whatsapp-logo"></i> Interested?
+          </a>
+        </div>
+        <div class="bg-surface rounded-[24px] p-6 flex flex-col gap-4 hover:-translate-y-1 transition-transform gs-stagger-child" style="min-height:280px;">
+          <div class="w-14 h-14 bg-black text-white flex items-center justify-center rounded-2xl text-2xl flex-shrink-0 shadow-lg ">
+            <i class="ph ph-device-mobile"></i>
+          </div>
+          <h3 class="font-heading font-bold text-[1.05rem] text-black leading-tight">App Development</h3>
+          <p class="text-muted text-xs leading-relaxed flex-1">Cross-platform mobile and web app development optimized
+            for performance, UX, and modern device standards.</p>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20your%20App%20Development%20service.%20Can%20we%20discuss%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-[#D8431E] transition self-start mt-auto">
+            <i class="ph ph-whatsapp-logo"></i> Interested?
+          </a>
+        </div>
+        <div class="bg-surface rounded-[24px] p-6 flex flex-col gap-4 hover:-translate-y-1 transition-transform gs-stagger-child" style="min-height:280px;">
+          <div class="w-14 h-14 bg-primary text-white flex items-center justify-center rounded-2xl text-2xl flex-shrink-0 shadow-lg shadow-primary/30">
+            <i class="ph ph-chart-line-up"></i>
+          </div>
+          <h3 class="font-heading font-bold text-[1.05rem] text-black leading-tight">SEO Optimization</h3>
+          <p class="text-muted text-xs leading-relaxed flex-1">Data-driven SEO strategies with technical audits, on-page
+            content, and link-building to drive organic growth.</p>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20your%20SEO%20Optimization%20service.%20Can%20we%20discuss%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-[#D8431E] transition self-start mt-auto">
+            <i class="ph ph-whatsapp-logo"></i> Interested?
+          </a>
+        </div>
+        <div class="bg-surface rounded-[24px] p-6 flex flex-col gap-4 hover:-translate-y-1 transition-transform gs-stagger-child" style="min-height:280px;">
+          <div class="w-14 h-14 bg-black text-white flex items-center justify-center rounded-2xl text-2xl flex-shrink-0 shadow-lg ">
+            <i class="ph ph-pencil-line"></i>
+          </div>
+          <h3 class="font-heading font-bold text-[1.05rem] text-black leading-tight">Custom Development</h3>
+          <p class="text-muted text-xs leading-relaxed flex-1">Bespoke websites and tools crafted specifically for your
+            unique business requirements — no templates, pure custom code.</p>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20your%20Custom%20Development%20service.%20Can%20we%20discuss%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-[#D8431E] transition self-start mt-auto">
+            <i class="ph ph-whatsapp-logo"></i> Interested?
+          </a>
+        </div>
+        <div class="bg-surface rounded-[24px] p-6 flex flex-col gap-4 hover:-translate-y-1 transition-transform gs-stagger-child" style="min-height:280px;">
+          <div class="w-14 h-14 bg-primary text-white flex items-center justify-center rounded-2xl text-2xl flex-shrink-0 shadow-lg shadow-primary/30">
+            <i class="ph ph-coin"></i>
+          </div>
+          <h3 class="font-heading font-bold text-[1.05rem] text-black leading-tight">Blockchain Dev</h3>
+          <p class="text-muted text-xs leading-relaxed flex-1">Smart contracts, NFT platforms, and Web3 DApps built to
+            be secure, decentralized, and future-proof.</p>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20your%20Blockchain%20Dev%20service.%20Can%20we%20discuss%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-[#D8431E] transition self-start mt-auto">
+            <i class="ph ph-whatsapp-logo"></i> Interested?
+          </a>
+        </div>
+        <div class="bg-surface rounded-[24px] p-6 flex flex-col gap-4 hover:-translate-y-1 transition-transform gs-stagger-child" style="min-height:280px;">
+          <div class="w-14 h-14 bg-black text-white flex items-center justify-center rounded-2xl text-2xl flex-shrink-0 shadow-lg ">
+            <i class="ph ph-megaphone"></i>
+          </div>
+          <h3 class="font-heading font-bold text-[1.05rem] text-black leading-tight">Paid Collab &amp; Promo</h3>
+          <p class="text-muted text-xs leading-relaxed flex-1">Brand promotions, sponsored content, and paid
+            collaborations to expand reach and grow your audience fast.</p>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20your%20Paid%20Collab%20%26%20Promo%20service.%20Can%20we%20discuss%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-[#D8431E] transition self-start mt-auto">
+            <i class="ph ph-whatsapp-logo"></i> Interested?
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: Portfolio / Projects -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="portfolio-header">
+        <div>
+          <span class="eyebrow gs-reveal">My Portfolio</span>
+          <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">Let's Have a Look at
+            <br><span class="accent-text">My Portfolio</span><span class="sparkle-accent">✤</span>
+          </h2>
+        </div>
+        <a class="cta-button gs-reveal" href="/projects">
+          <span class="cta-label">View All Projects</span>
+          <span class="cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg></span>
+        </a>
+      </div>
+
+      <!-- Feature Project Container -->
+      <div id="featureProjectContainer">
+        <!-- Injected via index-projects.js -->
+      </div>
+
+      <!-- Project Grid Container -->
+      <div id="featuredProjectGrid">
+        <!-- Injected via index-projects.js -->
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SECTION 6.5: Social & Courses -->
+  <section id="community" class="py-24 bg-surface-alt">
+    <div class="container">
+      <div class="mb-12 text-center">
+        <span class="eyebrow gs-reveal justify-center">Community &amp; Learning</span>
+        <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">Join My <span class="accent-text">Network</span><span class="sparkle-accent">✤</span></h2>
+      </div>
+
+      <!-- Social Row -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 gs-reveal gs-stagger-parent">
+
+        <!-- TikTok Profile Card -->
+        <div class="bg-black text-white rounded-[32px] p-6 sm:p-8 flex flex-col md:flex-row items-center md:items-center gap-8 gs-stagger-child shadow-xl overflow-hidden relative border border-gray-900 border-2">
+          <div class="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden flex-shrink-0 shadow-lg shadow-pink-500/10">
+            <img src="assets/tiktok-whtsapp-logo.jpeg" alt="Arshi Group" class="w-full h-full object-cover">
+          </div>
+          <div class="flex-1 text-center md:text-left w-full">
+            <div class="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+              <h3 class="font-heading font-extrabold text-[22px] tracking-tight leading-none text-white">Build With
+                Arshi Group</h3>
+              <span class="text-gray-400 text-sm hidden md:inline ml-1">arshi-group6</span>
+            </div>
+
+            <div class="flex items-center justify-center md:justify-start gap-4 mb-4 text-sm font-semibold">
+              <div><span class="text-white">0</span> <span class="text-gray-400 font-normal">Following</span></div>
+              <div><span class="text-white">10K</span> <span class="text-gray-400 font-normal">Followers</span></div>
+              <div><span class="text-white">89.3K</span> <span class="text-gray-400 font-normal">Likes</span></div>
+            </div>
+
+            <div class="flex items-center justify-center md:justify-start gap-2 mb-5 shrink-0 flex-wrap">
+              <a href="https://www.tiktok.com/@arshi-group6" target="_blank" class="bg-[#FE2C55] text-white px-6 sm:px-8 py-2 rounded-md font-bold text-[15px] hover:bg-[#e0264b] transition flex-shrink-0 leading-tight">Follow</a>
+              <a href="https://www.tiktok.com/@arshi-group6" target="_blank" class="bg-[#363636] text-white px-5 sm:px-6 py-2 rounded-md font-bold text-[15px] hover:bg-[#4d4d4d] transition flex-shrink-0 leading-tight">Message</a>
+              <div class="w-9 h-9 bg-[#363636] rounded-md flex items-center justify-center cursor-pointer hover:bg-[#4d4d4d] transition shrink-0">
+                <i class="ph ph-user-plus text-lg"></i>
+              </div>
+              <div class="w-9 h-9 bg-[#363636] rounded-md flex items-center justify-center cursor-pointer hover:bg-[#4d4d4d] transition shrink-0">
+                <i class="ph ph-share text-lg"></i>
+              </div>
+            </div>
+
+            <div class="text-[14px] leading-relaxed text-gray-200">
+              <div class="mb-0.5">💰 I Build Web Apps That Make Money</div>
+              <div class="mb-0.5">Full-Stack | AI | Automation</div>
+              <div class="mb-0.5">🚀 Projects • Collabs • Promotions</div>
+              <div>📩 DM</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp Channel Card -->
+        <div class="bg-white rounded-[32px] p-6 sm:p-8 flex flex-col items-center justify-center text-center gs-stagger-child shadow-xl overflow-hidden border border-gray-100">
+          <div class="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden mb-4 shadow-xl shadow-green-500/10 relative">
+            <img src="assets/tiktok-whtsapp-logo.jpeg" alt="Arshi Group" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-heading font-extrabold text-[26px] tracking-tight text-black mb-2 leading-none">Build With
+            Arshi Group</h3>
+
+          <div class="text-[17px] text-gray-800 leading-snug mb-0.5 font-medium">
+            👨‍💻 Full Stack | AI | Code Strategy
+          </div>
+          <div class="text-[17px] text-gray-800 leading-snug mb-0.5 font-medium">
+            💡 Logic Building • Real Projects • Road map
+          </div>
+          <div class="text-[17px] text-gray-800 leading-snug mb-2 font-medium">
+            📚 Crack Interviews • Grow as a Dev
+          </div>
+          <div class="text-sm text-gray-500 mb-6 font-medium">
+            Channel • 2.5K followers
+          </div>
+
+          <a href="https://whatsapp.com/channel/0029Vb6SZuM1t90YfEwX1a2V" target="_blank" class="bg-[#25D366] text-white hover:bg-[#20b858] shadow-lg shadow-[#25D366]/30 transition transform hover:-translate-y-0.5 px-8 py-3 rounded-full font-bold text-[15px] inline-flex items-center gap-2">
+            View in WhatsApp
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Courses Row -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 gs-reveal gs-stagger-parent">
+
+        <!-- Course 1 -->
+        <div class="bg-white rounded-[28px] p-8 border border-gray-100 shadow-xl flex flex-col gs-stagger-child hover:-translate-y-1 transition-transform group relative overflow-hidden">
+          <div class="absolute -right-8 -top-8 w-32 h-32 bg-red-500/10 rounded-full blur-2xl group-hover:bg-red-500/20 transition-colors">
+          </div>
+          <div class="flex justify-between items-start mb-6 relative z-10">
+            <div class="w-14 h-14 bg-red-50 text-red-500 rounded-2xl flex items-center justify-center text-3xl">
+              <i class="ph ph-youtube-logo"></i>
+            </div>
+            <div class="bg-black text-white px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">Paid
+              Course</div>
+          </div>
+          <h3 class="font-heading font-extrabold text-[22px] text-black mb-2 relative z-10">YouTube Automation</h3>
+          <p class="text-muted text-sm leading-relaxed mb-5 relative z-10">Learn step-by-step how to build, run and
+            scale faceless YouTube channels entirely using AI.</p>
+          <div class="flex items-center gap-2 mb-6 text-sm font-semibold text-black relative z-10">
+            <i class="ph ph-clock text-primary text-base"></i> Duration: 1 Month
+          </div>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20enrolling%20in%20the%20YouTube%20Automation%20course." target="_blank" class="mt-auto w-full inline-flex items-center justify-center gap-2 bg-primary text-white py-3 rounded-full font-bold hover:bg-[#D8431E] transition relative z-10 shadow-lg shadow-primary/20 hover:-translate-y-0.5">
+            Enroll Now <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="bg-white rounded-[28px] p-8 border border-gray-100 shadow-xl flex flex-col gs-stagger-child hover:-translate-y-1 transition-transform group relative overflow-hidden">
+          <div class="absolute -right-8 -top-8 w-32 h-32 bg-primary/10 rounded-full blur-2xl group-hover:bg-primary/20 transition-colors">
+          </div>
+          <div class="flex justify-between items-start mb-6 relative z-10">
+            <div class="w-14 h-14 bg-primary/10 text-primary rounded-2xl flex items-center justify-center text-3xl">
+              <i class="ph ph-code"></i>
+            </div>
+            <div class="bg-black text-white px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">Paid
+              Course</div>
+          </div>
+          <h3 class="font-heading font-extrabold text-[22px] text-black mb-2 relative z-10">Web Development</h3>
+          <p class="text-muted text-sm leading-relaxed mb-5 relative z-10">Master modern full-stack web development from
+            scratch. Build real projects to land a high-paying job.</p>
+          <div class="flex items-center gap-2 mb-6 text-sm font-semibold text-black relative z-10">
+            <i class="ph ph-clock text-primary text-base"></i> Duration: 1 Month
+          </div>
+          <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20enrolling%20in%20the%20Web%20Development%20course." target="_blank" class="mt-auto w-full inline-flex items-center justify-center gap-2 bg-primary text-white py-3 rounded-full font-bold hover:bg-[#D8431E] transition relative z-10 shadow-lg shadow-primary/20 hover:-translate-y-0.5">
+            Enroll Now <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 7: Achievement Awards -->
+  <section id="awards" class="awards-section">
+    <div class="container mb-12 text-center">
+      <span class="eyebrow gs-reveal justify-center">Achievement Awards</span>
+      <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">My <span class="accent-text">Award Winning</span> Journey<span class="sparkle-accent">✤</span></h2>
+    </div>
+    <div class="awards-track gs-reveal">
+      <div class="award-card">
+        <div class="award-bg-num">01</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-trophy"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · TestDome</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://www.testdome.com/certificates/b1c75dc5136740b9a24c2e1ed84aa7f9')">View
+            Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Laravel Certified</div>
+          <div class="award-desc">Ranked in the top 25% of all Laravel developers tested worldwide on the TestDome skill
+            assessment platform.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">02</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-code"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · TestDome</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://www.testdome.com/certificates/c06e811773384d12802bab32f05f9fc9')">View
+            Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Web Developer Certified</div>
+          <div class="award-desc">Achieved top 25% ranking for Web Developer skills — covering HTML, CSS, JavaScript,
+            and web fundamentals.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">03</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-layout"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · TestDome</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://www.testdome.com/certificates/68bfb24b3a7849c6a26738af14d91d39')">View
+            Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">HTML/CSS Certified</div>
+          <div class="award-desc">Top 25% ranking in HTML &amp; CSS assessment, demonstrating mastery of web markup and
+            styling standards.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">04</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-certificate"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · Simplilearn</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://tinyurl.com/2cpdc6gj')">View Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Professional Certificate</div>
+          <div class="award-desc">Completed an industry-recognized professional certification course through
+            Simplilearn's SkillUp platform.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">05</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-linkedin-logo"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · LinkedIn</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('http://verify.skilljar.com/c/76zndky3ocrb')">View Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Content &amp; Creative Design</div>
+          <div class="award-desc">Official LinkedIn certification for Content and Creative Design — covering brand
+            strategy, visual design, and campaign creation.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">06</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-star"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · Simplilearn</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://simpli-web.app.link/e/xLn4DjgDIZb')">View Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Digital Skills Certificate</div>
+          <div class="award-desc">Earned a verified digital skills certificate through Simplilearn's globally recognized
+            online learning platform.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">01</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-trophy"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · TestDome</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://www.testdome.com/certificates/b1c75dc5136740b9a24c2e1ed84aa7f9')">View
+            Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Laravel Certified</div>
+          <div class="award-desc">Ranked in the top 25% of all Laravel developers tested worldwide on the TestDome skill
+            assessment platform.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">02</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-code"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · TestDome</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://www.testdome.com/certificates/c06e811773384d12802bab32f05f9fc9')">View
+            Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Web Developer Certified</div>
+          <div class="award-desc">Achieved top 25% ranking for Web Developer skills — covering HTML, CSS, JavaScript,
+            and web fundamentals.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">03</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-layout"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · TestDome</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://www.testdome.com/certificates/68bfb24b3a7849c6a26738af14d91d39')">View
+            Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">HTML/CSS Certified</div>
+          <div class="award-desc">Top 25% ranking in HTML &amp; CSS assessment, demonstrating mastery of web markup and
+            styling standards.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">04</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-certificate"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · Simplilearn</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://tinyurl.com/2cpdc6gj')">View Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Professional Certificate</div>
+          <div class="award-desc">Completed an industry-recognized professional certification course through
+            Simplilearn's SkillUp platform.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">05</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-linkedin-logo"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · LinkedIn</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('http://verify.skilljar.com/c/76zndky3ocrb')">View Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Content &amp; Creative Design</div>
+          <div class="award-desc">Official LinkedIn certification for Content and Creative Design — covering brand
+            strategy, visual design, and campaign creation.</div>
+        </div>
+      </div>
+      <div class="award-card">
+        <div class="award-bg-num">06</div>
+        <div class="award-content">
+          <div class="award-badge bg-primary text-white rounded-full flex items-center justify-center text-2xl shadow-lg">
+            <i class="ph ph-star"></i>
+          </div>
+          <div class="award-stars"><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg><svg class="fill-primary h-4 w-4" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg></div>
+          <div class="award-year">2024 · Simplilearn</div>
+          <button class="bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold float-right mt-1 hover:bg-primary transition shadow-md" onclick="openCertificatePopup('https://simpli-web.app.link/e/xLn4DjgDIZb')">View Now <i class="ph ph-arrow-up-right"></i></button>
+          <div class="award-title">Digital Skills Certificate</div>
+          <div class="award-desc">Earned a verified digital skills certificate through Simplilearn's globally recognized
+            online learning platform.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 8: Pricing Model -->
+  <section id="pricing" class="pricing-section">
+    <div class="container">
+      <div class="pricing-header">
+        <div>
+          <span class="eyebrow gs-reveal">Pricing Table</span>
+          <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">My <span class="accent-text">Pricing Model</span><span class="sparkle-accent">✤</span></h2>
+        </div>
+        <a href="#contact" class="cta-button gs-reveal">
+          <span class="cta-label">Get Started</span>
+          <span class="cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg></span>
+        </a>
+      </div>
+      <div class="pricing-grid gs-reveal gs-stagger-parent">
+        <!-- Card 1 -->
+        <div class="pricing-card gs-stagger-child">
+          <div class="pricing-card-header">
+            <div class="plan-name">Custom Website</div>
+            <div class="plan-arrow bg-white shadow-md text-primary"><i class="ph ph-paper-plane-tilt text-lg"></i></div>
+            <div class="plan-price"><span class="price-amount">$100</span><span class="price-period">/ Project</span>
+            </div>
+          </div>
+          <div class="p-8 flex flex-col flex-1">
+            <div class="flex-1">
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Custom Web Design
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Responsive Layout
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Basic SEO Setup
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Frontend Development
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>1 Revision Round
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Contact Form Integration
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>5 Pages Included
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Delivery in 7 Days
+              </div>
+            </div>
+            <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I%20want%20to%20get%20started%20with%20Custom%20Website%20Development%20(%24100).%20Can%20we%20talk%3F" target="_blank" rel="noreferrer" class="mt-6 flex items-center justify-center gap-2 bg-black text-white py-3 px-6 rounded-full font-bold hover:bg-primary transition text-sm">
+              <i class="ph ph-whatsapp-logo"></i> Get This
+            </a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="pricing-card gs-stagger-child" style="transform: scale(1.03); box-shadow: 0 20px 40px rgba(0,0,0,0.12);">
+          <div class="pricing-card-header">
+            <div class="plan-name">SaaS Development</div>
+            <div class="plan-arrow bg-white shadow-md text-primary"><i class="ph ph-paper-plane-tilt text-lg"></i></div>
+            <div class="plan-price"><span class="price-amount">$1000</span><span class="price-period">/ Project</span>
+            </div>
+          </div>
+          <div class="p-8 flex flex-col flex-1">
+            <div class="flex-1">
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Full-Stack SaaS Build
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Subscription Billing (Stripe)
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>User Auth &amp; Dashboard
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>REST / GraphQL API
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Admin Panel
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Advanced SEO
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>3 Revision Rounds
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Priority Support
+              </div>
+            </div>
+            <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I'm%20interested%20in%20SaaS%20Development%20(%241000).%20Let's%20discuss!" target="_blank" rel="noreferrer" class="mt-6 flex items-center justify-center gap-2 bg-primary text-white py-3 px-6 rounded-full font-bold hover:bg-primary-dark transition text-sm">
+              <i class="ph ph-whatsapp-logo"></i> Get This
+            </a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="pricing-card gs-stagger-child">
+          <div class="pricing-card-header">
+            <div class="plan-name">Enterprise</div>
+            <div class="plan-arrow bg-white shadow-md text-primary"><i class="ph ph-paper-plane-tilt text-lg"></i></div>
+            <div class="plan-price"><span class="price-amount" style="font-size:1.6rem;">Custom</span><span class="price-period">Prices</span></div>
+          </div>
+          <div class="p-8 flex flex-col flex-1">
+            <div class="flex-1">
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Full Enterprise Architecture
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>AI Agents &amp; Automation
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Blockchain / Web3
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Multi-Cloud Hosting
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Dedicated Project Manager
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Unlimited Revisions
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>24/7 Priority Support
+              </div>
+              <div class="flex items-center text-[15px] font-medium text-black mb-3">
+                <div class="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs mr-3 flex-shrink-0">
+                  <i class="ph ph-check-bold"></i>
+                </div>Proactive Maintenance
+              </div>
+            </div>
+            <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I%20need%20Enterprise-level%20custom%20development.%20What's%20the%20price%3F" target="_blank" rel="noreferrer" class="mt-6 flex items-center justify-center gap-2 bg-black text-white py-3 px-6 rounded-full font-bold hover:bg-primary transition text-sm">
+              <i class="ph ph-whatsapp-logo"></i> Get This
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 9.5: CTA Banner -->
+  <section class="py-16 md:py-24 bg-surface relative overflow-hidden">
+    <div class="container relative z-10">
+      <div class="bg-gradient-to-br from-primary to-[#D8431E] rounded-[36px] px-6 pt-10 md:px-10 md:pt-12 lg:px-16 lg:pt-16 shadow-2xl relative overflow-hidden" style="background: linear-gradient(135deg, #F14F26, #D8431E) !important;">
+
+        <!-- Decorative blobs -->
+        <div class="absolute -top-20 -left-20 w-64 h-64 bg-white/20 rounded-full blur-[80px] pointer-events-none">
+        </div>
+        <div class="absolute -bottom-20 -right-20 w-64 h-64 bg-black/10 rounded-full blur-[80px] pointer-events-none">
+        </div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-white/10 rounded-full blur-[60px] pointer-events-none">
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8 items-stretch relative z-10">
+
+          <!-- LEFT: Have a project? -->
+          <div class="text-center md:text-left order-1 md:order-1 flex flex-col justify-center pb-8 md:pb-12 lg:pb-16">
+            <div>
+              <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-black/20 rounded-full text-[11px] font-bold tracking-widest uppercase text-white mb-5 backdrop-blur-sm">
+                <i class="ph ph-rocket"></i> Let's Build Together
+              </div>
+              <h3 class="font-heading font-extrabold text-3xl md:text-4xl text-white leading-tight mb-4">Have a <span class="text-black">Project?</span></h3>
+              <p class="text-white/80 text-[15px] leading-relaxed mb-8 max-w-sm mx-auto md:mx-0">Turn your idea into a
+                premium,
+                production-ready digital product. From concept to launch — I handle it all.</p>
+              <a href="https://wa.me/923206209172?text=Hi%20Hassan!%20I%20have%20a%20project%20idea%20and%20I'd%20like%20to%20discuss%20it%20with%20you." target="_blank" rel="noreferrer" class="inline-flex items-center gap-3 bg-black hover:bg-gray-900 text-white px-8 py-4 rounded-full font-bold text-[15px] transition-all duration-300 shadow-xl hover:shadow-black/30 hover:-translate-y-0.5 group">
+                <i class="ph ph-whatsapp-logo text-xl"></i> Yes, Let's Talk!
+                <i class="ph ph-arrow-right transition-transform group-hover:translate-x-1"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- CENTER: Team Image -->
+          <div class="flex items-end justify-center order-3 md:order-2 self-end w-full h-full pt-4">
+            <img src="assets/team.webp" alt="AG Team" class="w-full min-w-[120%] lg:min-w-[140%] max-w-none object-contain object-bottom drop-shadow-2xl translate-y-1 h-auto">
+          </div>
+
+          <!-- RIGHT: AG Team -->
+          <div class="text-center md:text-right order-2 md:order-3 flex flex-col justify-center pb-8 md:pb-12 lg:pb-16">
+            <div>
+              <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-black/20 rounded-full text-[11px] font-bold tracking-widest uppercase text-white mb-5 backdrop-blur-sm">
+                <i class="ph ph-users-three"></i> Our Expertise
+              </div>
+              <h3 class="font-heading font-extrabold text-3xl md:text-4xl text-white leading-tight mb-4">Professional
+                <span class="text-black">AG</span> Team
+              </h3>
+              <p class="text-white/80 text-[15px] leading-relaxed mb-6 max-w-sm md:ml-auto mx-auto md:mx-0">A dedicated
+                squad of designers,
+                developers, and AI specialists ready to bring your vision to life — on time, on budget.</p>
+              <div class="flex flex-col gap-3 items-center md:items-end">
+                <div class="flex items-center gap-3 text-white text-sm font-bold">
+                  <div class="w-8 h-8 rounded-full bg-black/20 text-white flex items-center justify-center text-base">
+                    <i class="ph ph-code"></i>
+                  </div>
+                  Full-Stack Development
+                </div>
+                <div class="flex items-center gap-3 text-white text-sm font-bold">
+                  <div class="w-8 h-8 rounded-full bg-black/20 text-white flex items-center justify-center text-base">
+                    <i class="ph ph-robot"></i>
+                  </div>
+                  AI &amp; Automation
+                </div>
+                <div class="flex items-center gap-3 text-white text-sm font-bold">
+                  <div class="w-8 h-8 rounded-full bg-black/20 text-white flex items-center justify-center text-base">
+                    <i class="ph ph-pencil-line"></i>
+                  </div>
+                  Premium UI/UX Design
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 9.7: Contact Marquee -->
+  <style>
+    @keyframes scroll-contact {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    .contact-ticker {
+      display: flex;
+      width: fit-content;
+      animation: scroll-contact 30s linear infinite;
+    }
+
+    .contact-ticker-item {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .contact-ticker-container {
+      background-color: #F14F26 !important;
+    }
+
+    .contact-ticker-container:hover .contact-ticker {
+      animation-play-state: paused;
+    }
+  </style>
+  <section class="py-3.5 bg-primary border-y border-white/20 overflow-hidden contact-ticker-container">
+    <div class="contact-ticker">
+      <!-- Original Set -->
+      <div class="flex items-center gap-10 md:gap-16 px-5 md:px-8">
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-briefcase text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">For
+            Project</span>
+          <a href="mailto:business.arshi-group@gmail.com" class="hover:text-black transition font-medium">business.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-handshake text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Paid
+            Collab / Promotion</span>
+          <a href="mailto:collab.arshi-group@gmail.com" class="hover:text-black transition font-medium">collab.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-question text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">For any
+            Help</span>
+          <a href="mailto:arshi-group8@gmail.com" class="hover:text-black transition font-medium">arshi-group8@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-phone-call text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Work
+            Number</span>
+          <a href="https://wa.me/923206209172" target="_blank" class="hover:text-black transition font-medium">03206209172</a>
+        </div>
+      </div>
+
+      <!-- Duplicate Set for Seamless Loop -->
+      <div class="flex items-center gap-10 md:gap-16 px-5 md:px-8">
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-briefcase text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">For
+            Project</span>
+          <a href="mailto:business.arshi-group@gmail.com" class="hover:text-black transition font-medium">business.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-handshake text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Paid
+            Collab / Promotion</span>
+          <a href="mailto:collab.arshi-group@gmail.com" class="hover:text-black transition font-medium">collab.arshi-group@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-question text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">For any
+            Help</span>
+          <a href="mailto:arshi-group8@gmail.com" class="hover:text-black transition font-medium">arshi-group8@gmail.com</a>
+        </div>
+        <div class="contact-ticker-item gap-2.5 text-white/90 text-[15px]">
+          <i class="ph ph-phone-call text-white text-xl"></i>
+          <span class="font-bold text-white uppercase tracking-wider text-xs bg-black/20 px-2 py-0.5 rounded">Work
+            Number</span>
+          <a href="https://wa.me/923206209172" target="_blank" class="hover:text-black transition font-medium">03206209172</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION 10: FAQs -->
+  <section id="faq" class="py-24 bg-surface">
+    <div class="container max-w-4xl">
+      <div class="mb-12 text-center">
+        <span class="eyebrow gs-reveal justify-center">Common Questions</span>
+        <h2 class="gs-reveal text-4xl md:text-5xl lg:text-6xl mb-4 font-extrabold leading-tight">Frequently Asked <span class="accent-text">Questions</span><span class="sparkle-accent">✤</span></h2>
+      </div>
+      <div class="flex flex-col gap-4 gs-reveal gs-stagger-parent">
+
+        <details class="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 gs-stagger-child cursor-pointer" open="">
+          <summary class="flex justify-between items-center font-heading font-bold text-[1.1rem] text-black list-none">
+            What is your typical turnaround time?
+            <span class="transition group-open:rotate-180 text-primary">
+              <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </span>
+          </summary>
+          <p class="text-muted mt-4 leading-relaxed text-[15px]">For custom websites, delivery is typically within 7
+            days. For SaaS or Enterprise applications, the timeline depends on the exact technical requirements, but a
+            standard MVP usually takes 3 to 6 weeks.</p>
+        </details>
+
+        <details class="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 gs-stagger-child cursor-pointer">
+          <summary class="flex justify-between items-center font-heading font-bold text-[1.1rem] text-black list-none">
+            Do you provide ongoing support after deployment?
+            <span class="transition group-open:rotate-180 text-primary">
+              <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </span>
+          </summary>
+          <p class="text-muted mt-4 leading-relaxed text-[15px]">Absolutely. I offer monthly retainers for ongoing
+            maintenance, proactive security updates, performance monitoring, and content updates to ensure everything
+            scales smoothly.</p>
+        </details>
+
+        <details class="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 gs-stagger-child cursor-pointer">
+          <summary class="flex justify-between items-center font-heading font-bold text-[1.1rem] text-black list-none">
+            What stack do you predominantly use?
+            <span class="transition group-open:rotate-180 text-primary">
+              <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </span>
+          </summary>
+          <p class="text-muted mt-4 leading-relaxed text-[15px]">I build using modern, highly scalable technologies. My
+            frontend stack includes Next.js, React, Tailwind CSS, and GSAP for animations. On the backend, I specialize
+            in Node.js, Express, Python, MongoDB, and SQL databases, integrated with leading AI wrappers.</p>
+        </details>
+
+        <details class="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 gs-stagger-child cursor-pointer">
+          <summary class="flex justify-between items-center font-heading font-bold text-[1.1rem] text-black list-none">
+            Will my website be SEO optimized?
+            <span class="transition group-open:rotate-180 text-primary">
+              <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </span>
+          </summary>
+          <p class="text-muted mt-4 leading-relaxed text-[15px]">Yes. All projects are built from the ground up
+            prioritizing Core Web Vitals, server-side rendering parameters, extremely clean markup, schema tags, and
+            optimized asset delivery for maximum indexability.</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 11: Contact Form -->
+  <section id="contact" class="py-24 bg-white relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="container max-w-5xl">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 gs-reveal">
+
+        <div>
+          <span class="eyebrow mb-4">Let's Talk</span>
+          <h2 class="text-4xl md:text-5xl lg:text-6xl mb-6 font-extrabold leading-tight">Got a project?<br> <span class="accent-text">Let's talk.</span></h2>
+          <p class="text-muted mb-10 text-[17px] leading-relaxed">Whether you have a specific project in mind, need a
+            consultant for backend structure, or simply want to chat about AI automation, I'm here.</p>
+
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-surface text-primary flex items-center justify-center text-xl shadow-sm">
+                <i class="ph ph-envelope-simple"></i>
+              </div>
+              <div>
+                <div class="text-sm text-gray-500 font-medium">Email</div>
+                <div class="font-bold text-black">arshi-group8@gmail.com</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-surface text-primary flex items-center justify-center text-xl shadow-sm">
+                <i class="ph ph-phone"></i>
+              </div>
+              <div>
+                <div class="text-sm text-gray-500 font-medium">Phone / WhatsApp</div>
+                <div class="font-bold text-black">+92 320 6209172</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-surface text-primary flex items-center justify-center text-xl shadow-sm">
+                <i class="ph ph-map-pin"></i>
+              </div>
+              <div>
+                <div class="text-sm text-gray-500 font-medium">Location</div>
+                <div class="font-bold text-black">Pakistan — Available Worldwide</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-surface rounded-3xl p-8 sm:p-10 shadow-lg border border-gray-100">
+          <!-- SUCCESS / ERROR MESSAGE -->
+          <div id="formStatus" class="hidden mb-5 px-5 py-4 rounded-xl text-sm font-semibold"></div>
+
+          <form id="contactForm" class="flex flex-col gap-6">
+            <div class="flex flex-col gap-2">
+              <label class="font-bold text-sm text-black" for="cf_name">Your Name</label>
+              <input id="cf_name" name="name" type="text" class="px-5 py-4 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-primary transition" placeholder="John Doe" required="">
+            </div>
+            <div class="flex flex-col gap-2">
+              <label class="font-bold text-sm text-black" for="cf_email">Email Address</label>
+              <input id="cf_email" name="email" type="email" class="px-5 py-4 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-primary transition" placeholder="john@example.com" required="">
+            </div>
+            <div class="flex flex-col gap-2">
+              <label class="font-bold text-sm text-black" for="cf_subject">Subject</label>
+              <input id="cf_subject" name="subject" type="text" class="px-5 py-4 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-primary transition" placeholder="Project Inquiry / Collaboration" required="">
+            </div>
+            <div class="flex flex-col gap-2">
+              <label class="font-bold text-sm text-black" for="cf_message">Message</label>
+              <textarea id="cf_message" name="message" class="px-5 py-4 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-primary transition h-32 resize-none" placeholder="Tell me about your project..." required=""></textarea>
+            </div>
+            <button type="submit" id="cfSubmitBtn" class="bg-black text-white hover:bg-primary transition w-full py-4 rounded-xl font-bold text-base mt-2 flex items-center justify-center gap-2">
+              <span id="cfBtnText">Send Message</span>
+              <i class="ph ph-paper-plane-tilt" id="cfBtnIcon"></i>
+            </button>
+          </form>
+
+          <script>
+            document.getElementById('contactForm').addEventListener('submit', async function (e) {
+              e.preventDefault();
+              const btn = document.getElementById('cfSubmitBtn');
+              const btnText = document.getElementById('cfBtnText');
+              const btnIcon = document.getElementById('cfBtnIcon');
+              const status = document.getElementById('formStatus');
+
+              // Loading state
+              btn.disabled = true;
+              btnText.textContent = 'Sending...';
+              btnIcon.className = 'ph ph-circle-notch animate-spin';
+
+              const data = {
+                name: document.getElementById('cf_name').value,
+                email: document.getElementById('cf_email').value,
+                subject: document.getElementById('cf_subject').value,
+                message: document.getElementById('cf_message').value
+              };
+
+              try {
+                const res = await fetch('https://formsubmit.co/ajax/arshi-group8@gmail.com', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                  body: JSON.stringify(data)
+                });
+
+                if (res.ok) {
+                  status.className = 'mb-5 px-5 py-4 rounded-xl text-sm font-semibold bg-green-50 text-green-700 border border-green-200';
+                  status.innerHTML = '&#10003; Message sent! I will get back to you within 24 hours. (If this is your first time, check your inbox to activate FormSubmit)';
+                  this.reset();
+                } else {
+                  throw new Error('failed');
+                }
+              } catch {
+                status.className = 'mb-5 px-5 py-4 rounded-xl text-sm font-semibold bg-red-50 text-red-700 border border-red-200';
+                status.innerHTML = '&#10007; Something went wrong. Please email me directly at <strong>arshi-group8@gmail.com</strong>';
+              }
+
+              btn.disabled = false;
+              btnText.textContent = 'Send Message';
+              btnIcon.className = 'ph ph-paper-plane-tilt';
+            });
+          </script>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 11.5: Meeting Banner -->
+  <section class="py-10 md:py-16 bg-white relative overflow-hidden">
+    <div class="container relative z-10">
+      <div class="rounded-[36px] px-6 pt-8 md:px-10 md:pt-10 lg:px-16 lg:pt-12 shadow-2xl relative overflow-hidden" style="background: linear-gradient(135deg, #111827, #030712) !important;">
+
+        <!-- Decorative blobs -->
+        <div class="absolute -top-20 -left-20 w-64 h-64 bg-white/10 rounded-full blur-[80px] pointer-events-none">
+        </div>
+        <div class="absolute -bottom-20 -right-20 w-64 h-64 bg-primary/20 rounded-full blur-[80px] pointer-events-none">
+        </div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-white/5 rounded-full blur-[60px] pointer-events-none">
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8 items-stretch relative z-10">
+
+          <!-- LEFT: Book a Meeting -->
+          <div class="text-center md:text-left order-1 md:order-1 flex flex-col justify-center pb-6 md:pb-10 lg:pb-12">
+            <div>
+              <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 border border-white/10 rounded-full text-[11px] font-bold tracking-widest uppercase text-white mb-5 backdrop-blur-sm">
+                <i class="ph ph-video-camera"></i> Live Consultation
+              </div>
+              <h3 class="font-heading font-extrabold text-3xl md:text-4xl text-white leading-tight mb-4">Book a
+                Live<br><span class="text-primary">Meeting</span> With Me</h3>
+              <p class="text-white/80 text-[15px] leading-relaxed mb-8 max-w-sm mx-auto md:mx-0">Let's hop on a call to
+                discuss your project, brainstorm ideas, or resolve any technical roadblocks in real-time.</p>
+              <a href="https://wa.me/923206209172?text=I%20want%20to%20schedule%20a%20live%20meeting%20on%20Google%20Meet%20or%20Zoom.%20Are%20you%20free%3F" target="_blank" rel="noreferrer" class="inline-flex items-center gap-3 bg-primary hover:bg-[#D8431E] text-white px-8 py-4 rounded-full font-bold text-[15px] transition-all duration-300 shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 group">
+                <i class="ph ph-whatsapp-logo text-xl"></i> Book a Meeting
+                <i class="ph ph-arrow-right transition-transform group-hover:translate-x-1"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- CENTER: Image -->
+          <div class="flex items-end justify-center order-3 md:order-2 self-end w-full h-full pt-4">
+            <img src="assets/meeting-image.webp" alt="Meeting with Arshi Group" class="w-full min-w-[100%] lg:min-w-[110%] max-w-none object-contain object-bottom drop-shadow-2xl translate-y-1 max-h-[250px] md:max-h-[300px] lg:max-h-[340px] origin-bottom scale-110 md:scale-125">
+          </div>
+
+          <!-- RIGHT: What to Expect -->
+          <div class="text-center md:text-right order-2 md:order-3 flex flex-col justify-center pb-6 md:pb-10 lg:pb-12">
+            <div>
+              <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 border border-white/10 rounded-full text-[11px] font-bold tracking-widest uppercase text-white mb-5 backdrop-blur-sm">
+                <i class="ph ph-calendar-check"></i> What to Expect
+              </div>
+              <h3 class="font-heading font-extrabold text-3xl md:text-4xl text-white leading-tight mb-4">
+                Meeting<br><span class="text-primary">Agenda</span>
+              </h3>
+              <p class="text-white/80 text-[15px] leading-relaxed mb-6 max-w-sm md:ml-auto mx-auto md:mx-0">A productive
+                1-on-1 session focused purely on actionable insights and strategy for your digital product.</p>
+              <div class="flex flex-col gap-3 items-center md:items-end">
+                <div class="flex items-center gap-3 text-white text-sm font-bold">
+                  <div class="w-8 h-8 rounded-full bg-white/10 text-white flex items-center justify-center text-base">
+                    <i class="ph ph-lightbulb"></i>
+                  </div>
+                  Project Planning &amp; Strategy
+                </div>
+                <div class="flex items-center gap-3 text-white text-sm font-bold">
+                  <div class="w-8 h-8 rounded-full bg-white/10 text-white flex items-center justify-center text-base">
+                    <i class="ph ph-code"></i>
+                  </div>
+                  Technical Architecture
+                </div>
+                <div class="flex items-center gap-3 text-white text-sm font-bold">
+                  <div class="w-8 h-8 rounded-full bg-white/10 text-white flex items-center justify-center text-base">
+                    <i class="ph ph-target"></i>
+                  </div>
+                  Clear Next Steps
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 12: Footer -->
+  <footer class="site-footer bg-black text-white pt-20 pb-10">
+    <div class="container">
+
+      <!-- Stats Bar -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 pb-16 border-b border-white/10">
+        <div class="text-center">
+          <div class="text-4xl font-extrabold text-primary font-heading">273+</div>
+          <div class="text-gray-400 text-sm mt-1">Projects Delivered</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-extrabold text-primary font-heading">100%</div>
+          <div class="text-gray-400 text-sm mt-1">Client Satisfaction</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-extrabold text-primary font-heading">4+</div>
+          <div class="text-gray-400 text-sm mt-1">Years Experience</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-extrabold text-primary font-heading">24h</div>
+          <div class="text-gray-400 text-sm mt-1">Response Time</div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 gs-reveal gs-stagger-parent">
+
+        <div class="gs-stagger-child text-gray-400">
+          <div class="flex items-center mb-6">
+            <img src="assets/arshi-group-logo.svg" alt="AG Logo" class="h-14 w-auto rounded-lg shadow-sm object-contain">
+          </div>
+          <p class="mb-6 leading-relaxed">Full-Stack Developer, AI Expert, and Vibe Coder crafting modern,
+            highly-optimized web experiences.</p>
+          <div class="flex items-center gap-3">
+            <a href="https://whatsapp.com/channel/0029Vb6SZuM1t90YfEwX1a2V" target="_blank" rel="noreferrer" title="WhatsApp" class="w-10 h-10 rounded-full bg-white/10 hover:bg-[#25D366] text-white flex items-center justify-center transition"><i class="ph ph-whatsapp-logo text-lg"></i></a>
+            <a href="https://www.tiktok.com/@arshi-group6" target="_blank" rel="noreferrer" title="TikTok" class="w-10 h-10 rounded-full bg-white/10 hover:bg-[#FE2C55] text-white flex items-center justify-center transition"><i class="ph ph-tiktok-logo text-lg"></i></a>
+            <a href="https://x.com/build_W_Hassan" target="_blank" rel="noreferrer" title="X / Twitter" class="w-10 h-10 rounded-full bg-white/10 hover:bg-primary text-white flex items-center justify-center transition"><i class="ph ph-x-logo text-lg"></i></a>
+            <a href="mailto:arshi-group8@gmail.com" title="Email" class="w-10 h-10 rounded-full bg-white/10 hover:bg-primary text-white flex items-center justify-center transition"><i class="ph ph-envelope-simple text-lg"></i></a>
+            <a href="https://github.com/arshi-group-AG" target="_blank" rel="noreferrer" title="GitHub" class="w-10 h-10 rounded-full bg-white/10 hover:bg-primary text-white flex items-center justify-center transition"><i class="ph ph-github-logo text-lg"></i></a>
+            <a href="https://stackoverflow.com/users/33033261/build-with-Arshi Group" target="_blank" rel="noreferrer" title="Stack Overflow" class="w-10 h-10 rounded-full bg-white/10 hover:bg-primary text-white flex items-center justify-center transition"><i class="ph ph-stack-overflow-logo text-lg"></i></a>
+            <a href="https://medium.com/@arshi-group8" target="_blank" rel="noreferrer" title="Medium" class="w-10 h-10 rounded-full bg-white/10 hover:bg-primary text-white flex items-center justify-center transition"><i class="ph ph-medium-logo text-lg"></i></a>
+            <a href="https://dev.to/build_withhassan" target="_blank" rel="noreferrer" title="DEV Community" class="w-10 h-10 rounded-full bg-white/10 hover:bg-primary text-white flex items-center justify-center transition"><i class="ph ph-dev-to-logo text-lg"></i></a>
+          </div>
+        </div>
+
+        <div class="gs-stagger-child">
+          <h4 class="text-white font-bold text-lg mb-6 tracking-wide">Navigation</h4>
+          <div class="flex flex-col gap-4 text-gray-400">
+            <a href="#hero" class="hover:text-primary transition flex items-center gap-2"><i class="ph ph-house text-sm"></i> Home</a>
+            <a href="#services" class="hover:text-primary transition flex items-center gap-2"><i class="ph ph-briefcase text-sm"></i> Services</a>
+            <a href="#about" class="hover:text-primary transition flex items-center gap-2"><i class="ph ph-user text-sm"></i> About</a>
+            <a class="hover:text-primary transition flex items-center gap-2" href="/projects"><i class="ph ph-folder-open text-sm"></i> All Projects</a>
+            <a href="#awards" class="hover:text-primary transition flex items-center gap-2"><i class="ph ph-trophy text-sm"></i> Awards</a>
+            <a href="#faq" class="hover:text-primary transition flex items-center gap-2"><i class="ph ph-question text-sm"></i> FAQs</a>
+          </div>
+        </div>
+
+        <div class="gs-stagger-child">
+          <h4 class="text-white font-bold text-lg mb-6 tracking-wide">Get In Touch</h4>
+          <div class="flex flex-col gap-5 text-gray-400">
+            <a href="mailto:arshi-group8@gmail.com" class="hover:text-primary transition flex items-start gap-3">
+              <i class="ph ph-envelope-simple text-primary mt-0.5"></i>
+              <span>arshi-group8@gmail.com</span>
+            </a>
+            <a href="https://wa.me/923206209172" target="_blank" class="hover:text-primary transition flex items-start gap-3">
+              <i class="ph ph-whatsapp-logo text-primary mt-0.5"></i>
+              <span>+92 320 6209172</span>
+            </a>
+            <div class="flex items-start gap-3">
+              <i class="ph ph-map-pin text-primary mt-0.5"></i>
+              <span>Pakistan — Serving Worldwide</span>
+            </div>
+            <a href="#contact" class="inline-flex items-center gap-2 bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-[#D8431E] transition w-fit">
+              <i class="ph ph-paper-plane-tilt"></i> Send a Message
+            </a>
+          </div>
+        </div>
+
+        <div class="gs-stagger-child">
+          <h4 class="text-white font-bold text-lg mb-6 tracking-wide">Stay Updated</h4>
+          <p class="text-gray-400 leading-relaxed mb-5">Get new project updates, AI insights &amp; web dev tips
+            delivered to your inbox.</p>
+          <form class="flex flex-col gap-3" onsubmit="event.preventDefault(); this.querySelector('input').value=''; const b=this.querySelector('button'); b.innerHTML='<i class=\'ph ph-check-bold\'></i> Subscribed!'; b.classList.add('bg-green-600'); b.classList.remove('bg-primary'); b.disabled=true;">
+            <input type="email" placeholder="Your email address" required="" class="w-full px-4 py-3 bg-white/10 text-white rounded-xl outline-none focus:bg-white/20 transition placeholder-gray-500 text-sm">
+            <button class="bg-primary hover:bg-[#D8431E] px-5 py-3 rounded-xl transition flex items-center justify-center gap-2 font-bold text-sm text-white w-full">
+              <i class="ph ph-paper-plane-tilt"></i> Subscribe
+            </button>
+          </form>
+        </div>
+
+      </div>
+      <div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-500 text-sm">
+        <div class="flex items-center gap-2">
+          <img src="assets/arshi-group-logo.svg" alt="AG" class="h-5 w-auto opacity-40 object-contain">
+          <span>Copyright © 2026 Arshi Group. All Rights Reserved.</span>
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="#" class="hover:text-white transition">Privacy Policy</a>
+          <a href="#" class="hover:text-white transition">Terms of Service</a>
+          <a href="#contact" class="hover:text-primary transition">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="fixed bottom-6 right-6 w-12 h-12 bg-black text-white hover:bg-primary rounded-full shadow-xl flex items-center justify-center transition-all opacity-0 pointer-events-none translate-y-4" id="scrollTopBtn" title="Back to top" style="z-index:90;">
+    <i class="ph ph-caret-up text-xl"></i>
+  </button>
+
+  <script src="js/projects-data.js"></script>
+  <script src="js/index-projects.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Certificate Modal -->
+  <div id="certModal" class="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-500" onclick="if(event.target===this)closeCertificatePopup()">
+    <div class="bg-white rounded-[32px] overflow-hidden w-11/12 max-w-2xl shadow-2xl relative transform scale-95 transition-all duration-500" id="certModalInner">
+      <div class="px-8 py-6 border-b border-gray-100 flex justify-between items-center bg-white relative z-20">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 bg-gray-50 text-primary rounded-full flex items-center justify-center text-2xl border border-gray-100 shadow-sm">
+            <i class="ph ph-seal-check"></i>
+          </div>
+          <div>
+            <div class="font-heading font-semibold text-gray-400 text-[10px] tracking-widest uppercase mb-0.5">Verified
+              Document</div>
+            <div class="font-bold text-black text-sm" id="certCompany"></div>
+          </div>
+        </div>
+        <button onclick="closeCertificatePopup()" class="w-10 h-10 bg-gray-50 hover:bg-black hover:text-white rounded-full flex items-center justify-center transition-all duration-300 text-gray-500">
+          <i class="ph ph-x text-lg"></i>
+        </button>
+      </div>
+      <div class="p-10 md:p-14 text-center relative overflow-hidden bg-[#fafafa]">
+        <div class="absolute -top-32 -right-32 w-80 h-80 bg-primary/5 rounded-full blur-[60px] pointer-events-none">
+        </div>
+        <div class="absolute -bottom-32 -left-32 w-80 h-80 bg-black/5 rounded-full blur-[60px] pointer-events-none">
+        </div>
+        <div class="relative z-10">
+          <div class="inline-flex items-center gap-1.5 px-4 py-1.5 bg-black text-white rounded-full text-[11px] font-bold tracking-widest uppercase mb-8 shadow-md">
+            <i class="ph ph-calendar-blank"></i> <span id="certYear"></span>
+          </div>
+          <h3 class="font-heading font-extrabold text-3xl md:text-5xl text-black mb-6 leading-tight pb-1" id="certTitle2"></h3>
+          <p class="text-gray-500 text-base md:text-lg max-w-lg mx-auto leading-relaxed mb-10" id="certDescEl"></p>
+          <a id="certLink" href="#" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-[#D8431E] text-white px-8 py-4 rounded-full font-bold hover:scale-[1.03] transition-all duration-300 shadow-xl shadow-primary/30 text-base group">
+            Access Authenticated Record <i class="ph ph-arrow-up-right transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script async="" id="netlify-rum-container" src=".netlify/scripts/rum" data-netlify-rum-site-id="8708d2f0-168a-4879-9424-ae3aa90af317" data-netlify-deploy-branch="" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiODcwOGQyZjAtMTY4YS00ODc5LTk0MjQtYWUzYWE5MGFmMzE3IiwiYWNjb3VudF9pZCI6IjZhN2NjMGNhOTc4YTFhNDRjZmVlNjY4YyIsImRlcGxveV9pZCI6IjZhOTNmMWVlZTc1Zjk3MmU5YmYwM2FmNiIsImlzc3VlciI6Im5mc2VydmVyIn0.R5q-E-5GIbmyzp14kd1QD0Dha-iGbkczTrn_zlAs174"></script>
+
+
+</body></html>
